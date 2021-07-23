@@ -5,24 +5,29 @@ from django.contrib.auth import authenticate, login, logout
 
 from .forms import RegUserForm
 
-def login(request):
 
+def loginU(request):
     if request.method == "POST":
-        username = request.POST.get('username')
-        password = request.POST.get('password')
+        username = request.POST['username']
+        password = request.POST['password']
 
         user = authenticate(request, username=username, password=password)
-# Добавить страницу аккаунта
         if user is not None:
-            login(request, username)
-            redirect('')
+            login(request, user)
+            return redirect('blog-main')
+        else:
+            messages.info(request, 'Вы допустили ошибку')
 
     context = {}
-    return render(request, 'main/log.html')
+    return render(request, 'main/log.html', context)
 
 
+def logoutU(request):
+    logout(request)
+    return redirect('login')
 
-def register(request):
+
+def registerU(request):
     form = RegUserForm()
 
     if request.method == 'POST':
@@ -30,11 +35,11 @@ def register(request):
         if form.is_valid():
             form.save()
             messages.success(request, 'Вы успешно зарегистрировались')
-            return redirect('login', )
+            return redirect('login')
 
     context = {'form': form}
     return render(request, 'main/reg.html', context)
 
 
 def blog_main(request):
-    pass
+    return render(request, 'main/blog.html')
