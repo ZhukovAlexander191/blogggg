@@ -15,12 +15,12 @@ def loginU(request):
         user = authenticate(request, username=username, password=password)
         if user is not None:
             login(request, user)
-            return redirect('blog-main')
+            return redirect('main')
         else:
             messages.info(request, 'Вы допустили ошибку')
 
     context = {}
-    return render(request, 'main/log.html', context)
+    return render(request, 'login/log.html', context)
 
 
 def logoutU(request):
@@ -39,9 +39,9 @@ def registerU(request):
             return redirect('login')
 
     context = {'form': form}
-    return render(request, 'main/reg.html', context)
+    return render(request, 'login/reg.html', context)
 
 
 @login_required(login_url='login')
 def blog_main(request):
-    return render(request, 'main/blog.html')
+    return render(request, 'login/blog.html')
