@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-<<<<<<< Updated upstream
-    <list default="true" id="67c2b46e-18ee-4ab8-ac59-b428317804ca" name="Default Changelist" comment="">
+    <list default="true" id="45d3ac9e-b92d-42b7-9758-b6d23fe27054" name="Default Changelist" comment="Merge branch 'master' into main&#10;&#10;# Conflicts:&#10;#&#9;SLTech/db.sqlite3&#10;#&#9;SLTech/main/__pycache__/admin.cpython-38.pyc&#10;#&#9;SLTech/main/__pycache__/models.cpython-38.pyc&#10;#&#9;SLTech/main/admin.py&#10;#&#9;SLTech/main/models.py">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/templates/main/shablon.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/shablon.html" afterDir="false" />
     </list>
-=======
-    <list default="true" id="67c2b46e-18ee-4ab8-ac59-b428317804ca" name="Default Changelist" comment="" />
->>>>>>> Stashed changes
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -109,6 +105,14 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="184" y="109" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1627191199065" />
+    <state x="439" y="257" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1628710381566">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="439" y="257" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1628710381566" />
+    <state x="330" y="0" key="CommitChangelistDialog2" timestamp="1628710402040">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="330" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1628710402040" />
     <state x="229" y="86" key="SettingsEditor" timestamp="1627191873223">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

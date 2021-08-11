@@ -41,7 +41,3 @@ def registerU(request):
     context = {'form': form}
     return render(request, 'login/reg.html', context)
 
-
-@login_required(login_url='login')
-def blog_main(request):
-    return render(request, 'login/blog.html')
