@@ -5,10 +5,7 @@
     <list default="true" id="67c2b46e-18ee-4ab8-ac59-b428317804ca" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/login/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/login/log.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/templates/login/reg.html" beforeDir="false" afterPath="$PROJECT_DIR$/login/templates/login/reg.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/main/shablon.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/shablon.html" afterDir="false" />
     </list>
 =======
     <list default="true" id="67c2b46e-18ee-4ab8-ac59-b428317804ca" name="Default Changelist" comment="" />
