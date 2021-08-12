@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45d3ac9e-b92d-42b7-9758-b6d23fe27054" name="Default Changelist" comment="Merge branch 'master' into main&#10;&#10;# Conflicts:&#10;#&#9;SLTech/db.sqlite3&#10;#&#9;SLTech/main/__pycache__/admin.cpython-38.pyc&#10;#&#9;SLTech/main/__pycache__/models.cpython-38.pyc&#10;#&#9;SLTech/main/admin.py&#10;#&#9;SLTech/main/models.py">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/templates/main/shablon.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/shablon.html" afterDir="false" />
     </list>
